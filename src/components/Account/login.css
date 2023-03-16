@@ -1,0 +1,41 @@
+.login_layout{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.login_img img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.login_tag{
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    border: black solid;
+    background-color: #1E1E1E;
+}
+.login_tag_text{
+    padding: 100px 0px;
+}
+
+.login_tag_text p{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+@media all and (max-width: 1024px) {
+    .login_layout{
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+    }
+    
+    .login_img img{
+        display: none;
+    }
+    
+
+}
