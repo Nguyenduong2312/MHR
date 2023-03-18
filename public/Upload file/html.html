@@ -1,0 +1,20 @@
+<body>
+   <h1>UPLOAD YOUR HEALTH RECORD HERE</h1>
+<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<div class="file-upload">
+  <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Upload file</button>
+
+  <div class="file-upload-wrap">
+    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="application/pdf" />
+    <div class="drag-text">
+      <h3>OR DRAG IT HERE</h3>
+    </div>
+  </div>
+  <div class="file-upload-content">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJSRqJyl88Jc7bVCNWH6L44Syq4FvO_HLuOg&usqp=CAU""style="width: 40px; height: 0px; alt="file"/>
+    <p>Selected file: <span class="file-title"></span> </p>
+    <div class="file-title-wrap">
+      <button type="button" onclick="removeUpload()" class="remove-file">Remove <span class="file-title">Uploaded Image</span></button>
+    </div>
+  </div>
+</div>
