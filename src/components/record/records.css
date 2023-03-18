@@ -14,7 +14,7 @@ p.title{
 .record{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: rgb(183, 97, 245);
+    background-color: rgb(255, 255, 255);
     width: 95%;
     margin: auto;
     margin-top: 20px;

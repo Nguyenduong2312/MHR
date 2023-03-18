@@ -12,12 +12,13 @@ export default function InforForm(props) {
     }
   
     const handleSubmit = (event) => {
-      event.preventDefault();
-      console.log(inputs);
+        props.setStatus(true);
+        event.preventDefault();
+        console.log(inputs);
     }
   
     return (
-        <div>
+        <div className='profile_form_tag'>
             <form onSubmit={handleSubmit}>
             <div className="inputField">
                 <label>Username:</label>
@@ -56,7 +57,7 @@ export default function InforForm(props) {
                     onChange={handleChange}
                 />
             </div>
-            <input className="submit" type="submit" />
+            <input className="submit save" type="submit" value={"Save"}/>
         </form>
 
         </div>

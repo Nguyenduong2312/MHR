@@ -11,7 +11,7 @@ export default function Profile(props) {
             return ( <Infor></Infor> )
         }
         else {
-            return ( <InforForm></InforForm> )
+            return ( <InforForm setStatus = {setStatus}></InforForm> )
         }
     };
   return (
@@ -28,10 +28,6 @@ export default function Profile(props) {
             </div>
             <div className='tag_info'>
                 <ChangeTag/>
-                <button className='button save' >
-                    Save
-                </button>
-
             </div>
         </div>
     </div>

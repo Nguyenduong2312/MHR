@@ -12,7 +12,7 @@ function DropUser() {
         <Dropdown.Toggle split variant="success" id="dropdown-split-basic" style={{background :"none", border:"none"}} />
 
         <Dropdown.Menu variant="dark">
-          <Dropdown.Item href="/register"> View profile </Dropdown.Item>
+          <Dropdown.Item href="/myProfile"> View profile </Dropdown.Item>
           <Dropdown.Divider />
           <Dropdown.Item href="#/action-4">Log out</Dropdown.Item>
         </Dropdown.Menu>

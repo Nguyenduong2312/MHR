@@ -8,12 +8,6 @@
     background-color: yellow;
     margin-left: 50px;
 }
-.button.save{
-    position: absolute;
-    bottom: 40px;
-    right: 40px;
-    background-color: blue;
-}
 .profile_tag{
     width: 70%;
     margin: auto;
