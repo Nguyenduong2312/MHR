@@ -1,0 +1,36 @@
+.profile_img img{
+    width: 250px;
+}
+.button{
+    width: 150px;
+}
+.button.editProfile{
+    background-color: yellow;
+    margin-left: 50px;
+}
+.button.save{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: blue;
+}
+.profile_tag{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 50px 30px;
+}
+.tag_img{
+    margin: auto;
+}
+.tag_info{
+    position: relative;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+
+}

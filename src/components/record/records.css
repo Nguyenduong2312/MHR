@@ -1,0 +1,38 @@
+.recordList{
+    background-color: none;
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    padding: 50px 30px;
+    border-radius: 20px;
+    border-style: solid;
+}
+p.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.record{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: rgb(183, 97, 245);
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.button{
+    width: 100px;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.button.view{
+    background-color: #221056;
+    color: #ffff;
+}

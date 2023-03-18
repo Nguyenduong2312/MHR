@@ -1,0 +1,12 @@
+label{
+    color: black;
+}
+form{
+    background-color: brown;
+    padding: 0px;
+}
+.inputField{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
